@@ -1,0 +1,175 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'leta';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(107, 107, 107), rgb(152, 152, 152));
+    margin-top: 200px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.782);
+    height: 170px;
+    width: 100%;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 0px 1px 10px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+    background-color: rgba(105, 100, 100, 0.411);
+    border-radius: 55%;
+}
+
+header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 25px;
+    position: relative;
+    text-align: center;
+    bottom: -30px;
+    font-size: 40px;
+}
+
+main h1 {
+    font-family: 'leta';
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    margin: 25px;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+main {
+    margin: 40px;
+    padding-top: 40px;
+    background-color: rgb(139, 133, 133);
+    height: 2300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 0px;
+    max-width: 1170px;
+    min-width: 320px;
+    max-height: 2300px;
+}
+main p {
+    line-height: 1.5em;
+    margin: 25px;
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+}
+.imagempc img{
+    border-radius: 50%;
+    position: relative;
+    left: 40%;
+    bottom: -20px;
+}
+
+.container img{
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+
+}
+
+
+
+footer {
+    height: 650px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.783);
+    box-shadow: 10px 5px 10px 2px;
+    max-width: 100%;
+    min-width: 320px;
+}
+
+footer p {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    line-height: 2em;
+    bottom: -50px;
+    color: rgb(227, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer button {
+    height: 200px;
+    width: 150px;
+    position: relative;
+    bottom: -150px;
+    left: 5%;
+    margin: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(46, 46, 46);
+    transition: 650ms;
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(39, 38, 38);
+    transition: 500ms;
+}
+
+footer img {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.seta1 img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 260px;
+    bottom: 25px;
+    min-width: 992px none;
+}
+
+.seta2 img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 503px;
+    bottom: 100px;
+}
+
+.seta3 img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 750px;
+    bottom: 170px;
+}

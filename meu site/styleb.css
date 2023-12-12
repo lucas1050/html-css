@@ -1,0 +1,251 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'leta';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+:root {
+    --cor1:#8ec4da;
+    --cor2:#2A9D8F;
+    --cor3:#E9C46A;
+    --cor4:#cd9466;
+    --cor4dark:#9c724f;
+    --cor:#E76F51;
+    --cortra1:#2a9d9028;
+    --cortra2:#2a9d903e;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: var(--cor1);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor4dark));
+    height: 170px;
+    width: 100%;
+    box-shadow: 0px 0.5px 15px 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    font-family: 'leta';
+    font-weight: lighter;
+    font-size: 3em;
+    bottom: -40px;
+}
+
+header a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    margin: 10px;
+    position: relative;
+    bottom: -15px;
+    color: rgba(0, 0, 0, 0.764);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    left: 5px;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 95%;
+    bottom: 40px;
+    border-radius: 10px;
+}
+
+.voltar img {
+    position: relative;
+    left: -15px;
+    border-radius: 50%;
+    bottom: -5px;
+}
+
+header img:hover {
+    background-color: rgba(0, 0, 0, 0.234);
+    cursor: pointer;
+}
+
+header img:active {
+    background-color: rgba(0, 0, 0, 0.381);
+}
+
+nav a:hover {
+    background-color: var(--cortra1);
+}
+
+nav a:active {
+    background-color: var(--cortra2);
+}
+
+main {
+    margin: 150px;
+    padding-top: 100px;
+    background-color: white;
+    width: 1000px;
+    position: relative;
+    left: -20px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+main p {
+    padding: 25px;
+    margin: 10px;
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+main h1 {
+    padding: 20px;
+    font-family: 'android';
+    font-weight: lighter;
+    font-size: 27px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+mark {
+    background-color: rgba(26, 212, 190, 0.357);
+}
+
+footer {
+    height: 1200px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.613);
+    box-shadow: 1px 1px 10px 1px;
+}
+
+footer h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    bottom: -20px;
+}
+
+.linha {
+    height: 4px;
+    width: 450px;
+    background-color: black;
+    position: relative;
+    left: 405px;
+    bottom: -100px;
+    border-radius: 400px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.257);
+}
+
+footer button {
+    height: 100px;
+    width: 350px;
+    position: relative;
+    left: 460px;
+    bottom: 250px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    transition: 200ms;
+}
+
+
+button:hover {
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.27), 4px 4px 8px 1px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 0 15px 5px rgba(145, 145, 145, 0.178), 4px 4px 8px 1px rgba(145, 145, 145, 0.178);
+    background-image: linear-gradient(to bottom, rgb(38, 38, 38), rgb(46, 46, 46));
+    color: rgb(205, 205, 205);
+    border: solid rgba(255, 255, 255, 0.156);
+}
+
+footer img {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 20px;
+    bottom: -500px;
+    z-index: 10;
+}
+
+.boll1 {
+    height: 430px;
+    width: 430px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 50%;
+    left: 400px;
+}
+
+.boll2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 50%;
+    left: 660px;
+    bottom: 470px;
+}
+
+.boll3 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 50%;
+    left: 400px;
+    bottom: 320px;
+}
+
+.boll4 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 50%;
+    left: 570px;
+    bottom: 820px;
+}
+
+.boll5 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 50%;
+    left: 400px;
+    bottom: 940px;
+}
+
+.boll6 {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 50%;
+    left: 830px;
+    bottom: 590px;
+}

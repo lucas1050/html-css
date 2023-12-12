@@ -1,0 +1,119 @@
+@charset "UFT-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/plano\ de\ fundo\ cadastro.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    height: 600px;
+    width: 750px;
+    background-image: linear-gradient(to right, rgb(200, 199, 199), rgba(160, 160, 160, 0.789));
+    position: relative;
+    left: 250px;
+    bottom: -120px;
+    border-radius: 10px;
+    border: 5px solid rgb(52, 52, 52);
+}
+
+.voltar {
+    background-color: rgba(143, 143, 143, 0.579);
+    width: 50px;
+    position: relative;
+    bottom: -20px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+.voltar:hover {
+    cursor: pointer;
+    background-color: rgba(120, 120, 120, 0.579);
+}
+
+.voltar:active {
+    background-color: rgba(143, 143, 143, 0.579);
+}
+
+.degrade img {
+    position: relative;
+    left: 80px;
+    bottom: -200px;
+    width: 300px;
+}
+
+.degrade > .linha {
+    position: relative;
+    bottom: 130px;
+    left: 220px;
+    opacity: 65%;
+}
+
+.inputbox {
+    position: relative;
+    left: 300px;
+    bottom: 250px;
+    width: 300px;
+}
+
+.inputUser{
+    background-image: linear-gradient(to right, rgb(200, 199, 199), rgb(166, 166, 166));
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition: 400ms;
+}
+
+.inputUser:focus {
+    background-color: rgb(170, 170, 170);
+}
+
+.inputUser:active {
+    background-color: rgb(191, 191, 191);
+}
+
+.labelInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.753)
+}
+
+
+.button {
+    background-color: rgba(117, 117, 117, 0.889);
+    border-radius: 20px;
+    width: 190px;
+    height: 50px;
+    position: relative;
+    bottom: -30px;
+    left: 50px;
+    border: solid rgba(99, 99, 99, 0.889);
+    transition: 200ms;
+}
+
+.button:hover {
+    border: solid rgb(146, 146, 146);
+    background-color: rgb(146, 146, 146);
+    cursor: pointer;
+}
+
+.button:active {
+    border: solid rgba(36, 36, 36, 0.776);
+    background-color: rgb(71, 71, 71);
+}
